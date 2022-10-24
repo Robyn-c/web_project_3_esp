@@ -1,0 +1,88 @@
+@import url(fonts/Inter\ Web/inter.css);
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background-color: #2a2c2f;
+  color: #ffffff;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.lead {
+  margin: 0 auto;
+}
+
+.lead__logo {
+  display: block;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.lead__title {
+  max-width: 793px;
+  font-size: 96px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lead__subtitle {
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lead__image {
+  display: block;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.intro {
+  max-width: 1017px;
+  margin: 0 auto;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+.intro__quote {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.42;
+  max-width: 722px;
+}
+
+.intro__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  max-width: 720px;
+}
+
+.photo-grid__item {
+  max-width: 284px;
+}
