@@ -78,8 +78,17 @@
     gap: 0;
     place-items: center;
   }
-  .place__title,
-  .place__website,
+
+  .place__title {
+    place-self: start;
+    padding: 0 16px;
+  }
+
+  .place__website {
+    place-self: start;
+    padding: 0 16px;
+  }
+
   .place__text {
     place-self: start;
     padding: 0 16px;
