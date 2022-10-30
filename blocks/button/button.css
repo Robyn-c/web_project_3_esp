@@ -1,4 +1,4 @@
-.place__button {
+button {
   max-width: 355px;
   padding: 13px 20px;
   font-size: 18px;
@@ -10,6 +10,6 @@
   transition: background-color 0.25s ease-in-out;
 }
 
-.place__button:hover {
+button:hover {
   background-color: #0063d2;
 }
